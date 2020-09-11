@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-sass-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/assets/scss/global.scss ./public/assets/css/compiled.css",
+    "dev": "nodemon app.js"
+  },
+  "author": "Manuel Neumayer",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10"
+  }
+}
