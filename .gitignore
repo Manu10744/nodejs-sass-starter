@@ -1,4 +1,4 @@
 node_modules/
 .vscode
-./public/assets/css/*
+public/assets/css/*
 package
